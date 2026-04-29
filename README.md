@@ -6,7 +6,7 @@
 ![Streamlit](https://img.shields.io/badge/Dashboard-Streamlit-red)
 
 ## 🔗 Live Demo
-👉 [Click here to try the live app](PASTE_YOUR_STREAMLIT_URL_HERE)
+👉 [Click here to try the live app](https://sentiment-analysis-dashboard-q82e8hiphbwnqdqc7cssyg.streamlit.app/)
 
 ## 🏢 Business Problem
 Founders are drowning in customer feedback.
