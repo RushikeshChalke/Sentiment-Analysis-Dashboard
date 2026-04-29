@@ -24,6 +24,10 @@ if st.sidebar.button("Reload Data"):
 # 2. Main Analytics
 with st.spinner("Analyzing Customer Feedback..."):
     df = load_sample_data()
+    if df is None:
+        st.error("Failed to load data. Please refresh the page.")
+        st.stop()
+
     df = process_reviews(df.head(500), 'message')
 
 # Top Row Metrics
